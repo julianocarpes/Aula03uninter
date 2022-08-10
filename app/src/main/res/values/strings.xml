@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Aula 03 uninter</string>
+    <string name="login">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="esqueci">Esqueci a Senha</string>
+    <string name="cadastrar">Cadastre-se</string>
+    <string name="entrar">Entrar</string>
 </resources>

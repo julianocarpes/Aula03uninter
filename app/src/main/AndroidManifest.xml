@@ -10,6 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aula03Uninter">
         <activity
+            android:name=".CadastroActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".EsqueciSenhaActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

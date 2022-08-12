@@ -9,28 +9,26 @@
     tools:context=".EsqueciSenhaActivity">
 
     <TextView
-        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="Digite seu Login"
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editSenha"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword">
+        android:id="@+id/tLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     </EditText>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnSenha"
+    <Button
+        android:id="@+id/btEnviar"
         android:layout_marginTop="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Enviar">
 
-    </androidx.appcompat.widget.AppCompatButton>
+    </Button>
 
 </LinearLayout>

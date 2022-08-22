@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/layout/activity_cadastro.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/layout/activity_cadastro.xml" value="0.1" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/layout/activity_contato.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/layout/activity_esqueci_senha.xml" value="0.33" />
-        <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/layout/activity_home.xml" value="0.12552083333333333" />
-        <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/julia/AndroidStudioProjects/Aula 03 Uninter/app/src/main/res/xml/provider_paths.xml" value="0.1" />
       </map>
     </option>
   </component>

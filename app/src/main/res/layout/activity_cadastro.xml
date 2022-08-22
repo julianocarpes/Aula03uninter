@@ -1,79 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    tools:context=".CadastroActivity">
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nome"
-        android:textSize="20sp" />
+    android:layout_width="match_parent">
 
-    <EditText
-        android:id="@+id/editNome"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:inputType="text">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    </EditText>
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="E-mail"
-        android:textSize="20sp" />
+        <TextView
+            android:textSize="20dp"
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/editeLogin"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/editeEmail"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress">
-
-    </EditText>
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sexo"
-        android:layout_marginTop="10dp"
-        android:textSize="20sp" />
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <RadioButton
-            android:id="@+id/radioMasculino"
+        </EditText>
+        <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Masculino">
+            android:text="Nome"
+            android:textSize="20sp" />
 
-        </RadioButton>
+        <EditText
+            android:id="@+id/editNome"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="text">
 
-        <RadioButton
-            android:id="@+id/radioFeminino"
+        </EditText>
+        <TextView
+            android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Feminino" />
+            android:text="E-mail"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editeEmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sexo"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp" />
+        <RadioGroup
+            android:id="@+id/radiosexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masculino">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/radioFeminino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feminino" />
         </RadioGroup>
-    <CheckBox
-        android:id="@+id/chekbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Aceito os termos de uso"/>
+        <CheckBox
+            android:id="@+id/chekbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Aceito os termos de uso"/>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnCadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        android:text="Cadastrar"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Cadastrar"/>
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+

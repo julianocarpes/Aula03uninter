@@ -1,5 +1,7 @@
 package com.example.aula03uninter.domain
 
-data class Usuario(val nome:String,val email:String) {
+import java.io.Serializable
 
-}
+data class Usuario(val nome:String,val email:String): Serializable
+
+

@@ -8,10 +8,11 @@ fun AppCompatActivity.alert(msg:String, callback:() -> Unit = {}){
     dialog.setTitle("Android")
     dialog.setMessage(msg)
     dialog.setButton(
-        AlertDialog.BUTTON_NEUTRAL,"ok"){_
+        AlertDialog.BUTTON_NEUTRAL,"Ok"){_
         , which ->dialog.dismiss()
         callback()
     }
+
     dialog.show()
 }
 

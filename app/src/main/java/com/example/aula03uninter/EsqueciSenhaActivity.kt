@@ -7,7 +7,7 @@ import android.widget.EditText
 import com.example.aula03uninter.domain.EsqueciSenhaService
 import com.example.aula03uninter.extencion.alert
 
-class EsqueciSenhaActivity : AppCompatActivity() {
+class EsqueciSenhaActivity : LogActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_esqueci_senha)
@@ -21,8 +21,10 @@ class EsqueciSenhaActivity : AppCompatActivity() {
         val service = EsqueciSenhaService()
         val ok = service.recuperarSenha(login)
         if(ok){
-            alert("Sua nova senha foi enviada para seu e-mail")
-            finish()
+            alert("Sua nova senha foi enviada para seu e-mail"){
+                finish()
+            }
+
         }
         else{
             alert("Ocorreu um eero ao recuperar a senha")
